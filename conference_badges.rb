@@ -6,9 +6,9 @@ def badge_maker(name)
   return name 
 end
 
-def batch_badge_creator(names)
+def batch_badge_creator(name)
   name_array = []
-  names.each {|attendees| name_array << badge_maker(name)}
+  name.each {|attendees| name_array << badge_maker(name)}
   return name_array
 end
 
