@@ -8,7 +8,7 @@ end
 def batch_badge_creator(name)
   names = Array.new 
   name.each {|attendees| names << badge_maker(name)}
-  return attendees 
+  return names 
 end
 
 def assign_rooms(speakers)
