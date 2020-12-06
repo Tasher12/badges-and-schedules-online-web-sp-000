@@ -1,6 +1,8 @@
 # Write your code here.
 def badge_maker(name)
-   puts "Hello, my name is #{name}." 
+  name = []
+  name.each {|names| puts "Hello, my name is #{names}."
+  name << names
 end
 
   
