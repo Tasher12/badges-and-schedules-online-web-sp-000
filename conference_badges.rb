@@ -21,10 +21,10 @@ def assign_rooms(speakers)
 end 
 
 def printer(attendees)
-  batch_badge_creator(attendees).each {|attendees| puts attendees}
-  assign_rooms(speakers).each {|speaker| puts speakers}
-  
-end 
+#print the name of each index in the array
+   batch_badge_creator(attendees).each { |names| puts names }
+   assign_rooms(attendees).each { |room| puts room }
+end
   
   
 
