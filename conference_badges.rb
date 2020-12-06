@@ -2,10 +2,7 @@
 
 
 def badge_maker(name)
-  name = Array.new 
-  puts "Hello, my name is #{name}."
-  name << name 
-  
+  name = puts "Hello, my name is #{name}"
 end
 
 def batch_badge_creator(name)
