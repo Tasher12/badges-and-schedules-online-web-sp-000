@@ -9,7 +9,7 @@ end
 def batch_badge_creator(names)
   name_array = []
   names.each {|attendees| name_array << badge_maker(name)}
-  return name_array
+  return attendees
 end
 
 def assign_rooms(speakers)
