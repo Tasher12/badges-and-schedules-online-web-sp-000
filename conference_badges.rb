@@ -5,8 +5,9 @@ def badge_maker(name)
   return "Hello, my name is #{name}." 
 end
 
-def batch_badge_creator(names)
-  returns badge_messages
+def batch_badge_creator(attendees)
+  attendees = Array.new 
+  return attendees
 end
 
 def assign_rooms(speakers)
