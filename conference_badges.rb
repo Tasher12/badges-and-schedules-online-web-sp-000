@@ -4,6 +4,7 @@
 def badge_maker(name)
   name = Array.new 
   puts "Hello, my name is #{name}."
+  name << name 
   
 end
 
