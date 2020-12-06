@@ -5,10 +5,8 @@ def badge_maker(name)
   return "Hello, my name is #{name}." 
 end
 
-def batch_badge_creator(name)
-  name = Array.new 
-  name.each {|new_badge| name << new_badge}
-  return name 
+def batch_badge_creator(names)
+  returns badge_messages
 end
 
 def assign_rooms(speakers)
