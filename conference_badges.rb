@@ -6,8 +6,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  name = Array.new 
-  name.each {|attendees| name << badge_maker(name)}
+  names = Array.new 
+  names.each {|attendees| names << badge_maker(name)}
   return name 
 end
 
